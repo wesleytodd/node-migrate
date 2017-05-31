@@ -14,7 +14,8 @@
     "migrate-list": "./bin/migrate-list",
     "migrate-create": "./bin/migrate-create",
     "migrate-up": "./bin/migrate-up",
-    "migrate-down": "./bin/migrate-down"
+    "migrate-down": "./bin/migrate-down",
+    "migrate-test": "./bin/migrate-test"
   },
   "devDependencies": {
     "mocha": "^3.2.0",

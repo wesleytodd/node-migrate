@@ -12,4 +12,5 @@ program
   .command('create [name]', 'Create a new migration')
   .command('up [name]', 'Migrate up to a give migration', {isDefault: true})
   .command('down [name]', 'Migrate down to a given migration')
+  .command('test [name]', 'Test a migration')
   .parse(process.argv)
